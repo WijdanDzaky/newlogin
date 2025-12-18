@@ -1,0 +1,8 @@
+                
+                
+                
+                
+<!-- user info id username-->
+
+                <p><strong>User ID:</strong> <?php echo $_SESSION["id"]; ?></p>
+                <p><strong>Username:</strong> <?php echo htmlspecialchars($_SESSION["username"]); ?></p>
